@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import LateNight from "./lateNight";
+import Pages from "./pages";
+import EndQ from "./endQ";
+import NoHesNot from "./noHesNot";
+import ThenMaybe from "./thenMaybe";
+import Reagrdless from "./regardless";
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Pages />} />
+        <Route path="/lateNight" element={<LateNight />} />
+        <Route path="/endQ" element={<EndQ />} />
+        <Route path="/notG" element={<NoHesNot />} />
+        <Route path="/thenMaybe" element={<ThenMaybe />} />
+        <Route path="/reg" element={<Reagrdless />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;

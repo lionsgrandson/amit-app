@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+.YesNoSec {
+  display: flex;
+  gap: 5rem;
+}
+.questionsSec {
+  flex-direction: column;
+  display: flex;
+  /* gap: 5rem; */
+}
+.fullpage {
+  display: flex;
+  flex-direction: row;
+}
+.qSec {
+  display: flex;
+  flex-direction: column;
+}
+.notYet {
+  display: none;
+}

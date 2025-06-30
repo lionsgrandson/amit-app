@@ -1,0 +1,26 @@
+
+        //  <div className="YesNoSec">
+          <div>
+            <h2>no</h2>
+            <h3>Then he is not grouchy</h3>
+          </div>
+        </div>
+        //   <div className="questionsSec">
+        //     <div className="YesNoSec">
+        //       <h2>no</h2>
+        //     </div>
+        //     <button>" then he's not"</button>
+        //   </div>
+        //   <div className="questionsSec">
+        //     <div className="YesNoSec">
+        //       <h2>Yes</h2>
+        //     </div>
+        //     <button>"then is it late?"</button>
+        //     <h2>Hes not</h2>
+        //   </div>
+        //   <div className="questionsSec">
+        //     <div className="YesNoSec">
+        //       <h2>No</h2>
+        //     </div>
+        //     <button>" then maybe"</button>
+        //   </div>
