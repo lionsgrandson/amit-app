@@ -48,6 +48,7 @@
 .fullpage {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .qSec {
   display: flex;

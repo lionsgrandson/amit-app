@@ -1,10 +1,14 @@
 import "./App.css";
+import { FaHeart } from "react-icons/fa";
 
 function NoHesNot() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>No hes not</h1>
+        <h1>
+          <FaHeart />
+          {""} No hes not <FaHeart />
+        </h1>
       </header>
     </div>
   );
